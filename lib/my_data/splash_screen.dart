@@ -16,14 +16,14 @@ class SplashScreen extends StatelessWidget {
         width: MediaQuery.of(context).size.width,
         decoration: const BoxDecoration(
           image: DecorationImage(
-              image: AssetImage("assets/splash.jpeg"), fit: BoxFit.cover),
+              image: AssetImage("assets/splash.jpg"), fit: BoxFit.cover),
         ),
         child: const Text(
           "Öz ýyldyzyňy tana       >>>  ",
           style: TextStyle(
             fontFamily: 'MyFont',
             fontSize: 25,
-            color: Colors.black,
+            color: Colors.white,
             fontWeight: FontWeight.bold,
           ),
         ),
